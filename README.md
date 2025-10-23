@@ -30,7 +30,7 @@ It also includes robust **logging** and **exception handling** for reliability a
 ---
 
 ## 📁 Project Structure
-
+```bash
 study_mgmt/
 │
 ├── study_mgmt/ # Main project folder
@@ -52,7 +52,7 @@ study_mgmt/
 ├── static/ # Static assets (CSS, JS)
 ├── manage.py # Django CLI utility
 └── README.md
-
+```
 
 ---
 
@@ -60,8 +60,8 @@ study_mgmt/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/care2data.git
-cd care2data
+git clone https://github.com/rubankumarsankar/Student_Management.git
+cd Student_Management
 ```
 
 ### 2️⃣ Create Virtual Environment
