@@ -6,18 +6,18 @@ It also includes robust **logging** and **exception handling** for reliability a
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Add, Edit, View, and Delete Study records  
-- 🎨 Modern responsive UI using **Bootstrap 5**  
-- 🧠 Django-based MVC structure  
-- 🛡️ Exception handling for safe execution  
-- 📜 Centralized logging system for debugging and audits  
-- 🔍 CSRF protection for form security  
+-  Add, Edit, View, and Delete Study records  
+-  Modern responsive UI using **Bootstrap 5**  
+-  Django-based MVC structure  
+-  Exception handling for safe execution  
+-  Centralized logging system for debugging and audits  
+-  CSRF protection for form security  
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |------------|-------------|
@@ -29,7 +29,7 @@ It also includes robust **logging** and **exception handling** for reliability a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```bash
 study_mgmt/
 │
@@ -56,35 +56,35 @@ study_mgmt/
 
 ---
 
-## ⚙️ Installation Guide
+##  Installation Guide
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/rubankumarsankar/Student_Management.git
 cd Student_Management
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2️ Create Virtual Environment
 ```bash
 python -m venv venv
 venv\Scripts\activate  
 ```
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 
 ```base          
 pip install -r requirements.txt
 
 ```
 
-### 4️⃣ Run Database Migrations
+### 4️ Run Database Migrations
 
 ```base 
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5️⃣ Start the Development Server
+### 5️ Start the Development Server
 
 ```base    
 python manage.py runserver
