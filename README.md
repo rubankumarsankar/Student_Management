@@ -33,24 +33,24 @@ It also includes robust **logging** and **exception handling** for reliability a
 ```bash
 study_mgmt/
 │
-├── study_mgmt/ # Main project folder
-│ ├── settings.py # Django settings (logging setup here)
-│ ├── urls.py # URL routing
-│ └── wsgi.py # WSGI entry point
+├── study_mgmt/ 
+│ ├── settings.py
+│ ├── urls.py 
+│ └── wsgi.py 
 │
-├── studies/ # App for managing studies
-│ ├── models.py # Study model definition
-│ ├── views.py # Business logic and CRUD
-│ ├── urls.py # App-specific URL mapping
-│ ├── forms.py # Django ModelForm for study
-│ ├── templates/studies/ # HTML templates
+├── studies/ 
+│ ├── models.py 
+│ ├── views.py 
+│ ├── urls.py 
+│ ├── forms.py 
+│ ├── templates/studies/ 
 │ │ ├── study_form.html
 │ │ ├── study_view.html
 │ │ └── study_list.html
-│ └── admin.py # Admin registration
+│ └── admin.py 
 │
-├── static/ # Static assets (CSS, JS)
-├── manage.py # Django CLI utility
+├── static/ 
+├── manage.py 
 └── README.md
 ```
 
