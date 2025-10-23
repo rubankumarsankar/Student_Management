@@ -21,8 +21,7 @@
       }
 
       .card-header {
-        background: linear-gradient(135deg, #007bff, #00c6ff);
-        color: white;
+        color: #000;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         padding: 1rem 1.5rem;
@@ -69,9 +68,9 @@
     <div class="container">
       <div class="card">
         <div class="card-header d-flex justify-content-between align-items-center">
-          <h3 class="m-0">📚 Study Management</h3>
+          <h3 class="m-0"> Study Management</h3>
           <a href="{% url 'study_create' %}" class="btn btn-light text-primary fw-semibold shadow-sm"
-            >➕ Add Study</a
+            >+ Add Study</a
           >
         </div>
 
@@ -92,7 +91,7 @@
                 <tr>
                   <td class="fw-semibold">{{ study.study_name }}</td>
                   <td>
-                    <span class="badge bg-primary">{{ study.study_phase }}</span>
+                    <span class="">{{ study.study_phase }}</span>
                   </td>
                   <td>{{ study.sponsor_name }}</td>
                   <td class="text-muted">{{ study.study_description }}</td>
@@ -129,10 +128,6 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <p>© 2024 CARE2DATA | All Rights Reserved</p>
-      </footer>
     </div>
   </body>
 </html>

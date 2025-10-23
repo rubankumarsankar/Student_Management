@@ -12,42 +12,50 @@
       body {
         background-color: #f8fafc;
         font-family: "Inter", sans-serif;
+        padding: 40px 0;
       }
 
       .card {
         max-width: 700px;
-        margin: 60px auto;
+        margin: auto;
         border: none;
         border-radius: 1rem;
         box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
       }
 
       .card-header {
-        background: linear-gradient(135deg, #007bff, #00c6ff);
-        color: white;
+        color: #000;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
-        padding: 1.25rem 1.5rem;
-        font-size: 1.25rem;
+        padding: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 600;
+        text-align: center;
       }
 
-      .card-body p {
-        margin-bottom: 10px;
-        font-size: 1rem;
-        color: #333;
+      table {
+        width: 100%;
       }
 
-      .card-body strong {
+      th {
+        width: 35%;
+        text-align: left;
         color: #0d6efd;
+        font-weight: 600;
+        padding: 0.75rem 0;
       }
 
-      .badge {
-        background-color: #007bff;
+      td {
+        color: #333;
+        padding: 0.75rem 0;
       }
 
       .btn {
         border-radius: 0.5rem;
+      }
+
+      .text-end {
+        text-align: right;
       }
 
       footer {
@@ -62,25 +70,27 @@
   <body>
     <div class="container">
       <div class="card">
-        <div class="card-header">
-          View Study Details
-        </div>
+        <div class="card-header">Study Details</div>
         <div class="card-body">
-          <h4 class="mb-3 text-primary">{{ study.study_name }}</h4>
 
-          <p>
-            <strong>Phase:</strong>
-            <span class="badge">{{ study.study_phase }}</span>
-          </p>
-
-          <p>
-            <strong>Sponsor:</strong> {{ study.sponsor_name }}
-          </p>
-
-          <p>
-            <strong>Description:</strong><br />
-            <span class="text-muted">{{ study.study_description }}</span>
-          </p>
+          <table class="table table-borderless">
+            <tr>
+              <th>Name</th>
+              <td><span class="">{{ study.study_name }}</span></td>
+            </tr>
+            <tr>
+              <th>Phase</th>
+              <td><span class="">{{ study.study_phase }}</span></td>
+            </tr>
+            <tr>
+              <th>Sponsor</th>
+              <td>{{ study.sponsor_name }}</td>
+            </tr>
+            <tr>
+              <th>Description</th>
+              <td>{{ study.study_description }}</td>
+            </tr>
+          </table>
 
           <div class="text-end mt-4">
             <a href="{% url 'study_list' %}" class="btn btn-secondary px-4">
@@ -90,9 +100,6 @@
         </div>
       </div>
 
-      <footer>
-        <p>© 2024 CARE2DATA | All Rights Reserved</p>
-      </footer>
     </div>
   </body>
 </html>

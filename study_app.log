@@ -1,1 +1,39 @@
 Error fetching studies: studies/study_list.html
+INFO 2025-10-23 22:26:08,310 autoreload Watching for file changes with StatReloader
+INFO 2025-10-23 22:26:13,417 views Fetched all studies successfully.
+INFO 2025-10-23 22:26:13,438 basehttp "GET / HTTP/1.1" 200 4482
+WARNING 2025-10-23 22:26:13,528 log Not Found: /favicon.ico
+WARNING 2025-10-23 22:26:13,529 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
+INFO 2025-10-23 22:26:19,249 basehttp "GET /add/ HTTP/1.1" 200 5439
+INFO 2025-10-23 22:26:34,789 views New study created: abc
+INFO 2025-10-23 22:26:34,791 basehttp "POST /add/ HTTP/1.1" 302 0
+INFO 2025-10-23 22:26:34,793 views Fetched all studies successfully.
+INFO 2025-10-23 22:26:34,797 basehttp "GET / HTTP/1.1" 200 5496
+INFO 2025-10-23 22:27:28,577 basehttp "GET /edit/1/ HTTP/1.1" 200 5469
+INFO 2025-10-23 22:27:30,814 views Fetched all studies successfully.
+INFO 2025-10-23 22:27:30,818 basehttp "GET / HTTP/1.1" 200 5496
+INFO 2025-10-23 22:28:10,745 views Fetched all studies successfully.
+INFO 2025-10-23 22:28:10,750 basehttp "GET / HTTP/1.1" 200 5417
+WARNING 2025-10-23 22:28:10,793 log Not Found: /favicon.ico
+WARNING 2025-10-23 22:28:10,798 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
+INFO 2025-10-23 22:28:14,618 views Viewing study: ruban
+INFO 2025-10-23 22:28:14,620 basehttp "GET /view/1/ HTTP/1.1" 200 2058
+INFO 2025-10-23 22:28:21,134 views Fetched all studies successfully.
+INFO 2025-10-23 22:28:21,138 basehttp "GET / HTTP/1.1" 200 5417
+INFO 2025-10-23 22:28:38,917 views Viewing study: ruban
+INFO 2025-10-23 22:28:38,919 basehttp "GET /view/1/ HTTP/1.1" 200 2058
+INFO 2025-10-23 22:30:18,534 views Viewing study: ruban
+INFO 2025-10-23 22:30:18,543 basehttp "GET /view/1/ HTTP/1.1" 200 3959
+INFO 2025-10-23 22:30:36,425 views Fetched all studies successfully.
+INFO 2025-10-23 22:30:36,433 basehttp "GET / HTTP/1.1" 200 5417
+INFO 2025-10-23 22:31:11,702 basehttp "GET /add/ HTTP/1.1" 200 5353
+WARNING 2025-10-23 22:31:14,969 views Invalid form data submitted for study creation.
+INFO 2025-10-23 22:31:14,977 basehttp "POST /add/ HTTP/1.1" 200 5599
+WARNING 2025-10-23 22:31:17,097 views Invalid form data submitted for study creation.
+INFO 2025-10-23 22:31:17,105 basehttp "POST /add/ HTTP/1.1" 200 5599
+INFO 2025-10-23 22:31:18,928 views Fetched all studies successfully.
+INFO 2025-10-23 22:31:18,936 basehttp "GET / HTTP/1.1" 200 5417
+INFO 2025-10-23 22:31:22,981 views Viewing study: ruban
+INFO 2025-10-23 22:31:22,981 basehttp "GET /view/1/ HTTP/1.1" 200 3959
+INFO 2025-10-23 22:31:26,665 views Fetched all studies successfully.
+INFO 2025-10-23 22:31:26,674 basehttp "GET / HTTP/1.1" 200 5417
