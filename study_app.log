@@ -1,196 +1,41 @@
-Error fetching studies: studies/study_list.html
-INFO 2025-10-23 22:26:08,310 autoreload Watching for file changes with StatReloader
-INFO 2025-10-23 22:26:13,417 views Fetched all studies successfully.
-INFO 2025-10-23 22:26:13,438 basehttp "GET / HTTP/1.1" 200 4482
-WARNING 2025-10-23 22:26:13,528 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:26:13,529 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:26:19,249 basehttp "GET /add/ HTTP/1.1" 200 5439
-INFO 2025-10-23 22:26:34,789 views New study created: abc
-INFO 2025-10-23 22:26:34,791 basehttp "POST /add/ HTTP/1.1" 302 0
-INFO 2025-10-23 22:26:34,793 views Fetched all studies successfully.
-INFO 2025-10-23 22:26:34,797 basehttp "GET / HTTP/1.1" 200 5496
-INFO 2025-10-23 22:27:28,577 basehttp "GET /edit/1/ HTTP/1.1" 200 5469
-INFO 2025-10-23 22:27:30,814 views Fetched all studies successfully.
-INFO 2025-10-23 22:27:30,818 basehttp "GET / HTTP/1.1" 200 5496
-INFO 2025-10-23 22:28:10,745 views Fetched all studies successfully.
-INFO 2025-10-23 22:28:10,750 basehttp "GET / HTTP/1.1" 200 5417
-WARNING 2025-10-23 22:28:10,793 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:28:10,798 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:28:14,618 views Viewing study: ruban
-INFO 2025-10-23 22:28:14,620 basehttp "GET /view/1/ HTTP/1.1" 200 2058
-INFO 2025-10-23 22:28:21,134 views Fetched all studies successfully.
-INFO 2025-10-23 22:28:21,138 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:28:38,917 views Viewing study: ruban
-INFO 2025-10-23 22:28:38,919 basehttp "GET /view/1/ HTTP/1.1" 200 2058
-INFO 2025-10-23 22:30:18,534 views Viewing study: ruban
-INFO 2025-10-23 22:30:18,543 basehttp "GET /view/1/ HTTP/1.1" 200 3959
-INFO 2025-10-23 22:30:36,425 views Fetched all studies successfully.
-INFO 2025-10-23 22:30:36,433 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:31:11,702 basehttp "GET /add/ HTTP/1.1" 200 5353
-WARNING 2025-10-23 22:31:14,969 views Invalid form data submitted for study creation.
-INFO 2025-10-23 22:31:14,977 basehttp "POST /add/ HTTP/1.1" 200 5599
-WARNING 2025-10-23 22:31:17,097 views Invalid form data submitted for study creation.
-INFO 2025-10-23 22:31:17,105 basehttp "POST /add/ HTTP/1.1" 200 5599
-INFO 2025-10-23 22:31:18,928 views Fetched all studies successfully.
-INFO 2025-10-23 22:31:18,936 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:31:22,981 views Viewing study: ruban
-INFO 2025-10-23 22:31:22,981 basehttp "GET /view/1/ HTTP/1.1" 200 3959
-INFO 2025-10-23 22:31:26,665 views Fetched all studies successfully.
-INFO 2025-10-23 22:31:26,674 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:36:29,933 views Fetched all studies successfully.
-INFO 2025-10-23 22:36:29,936 basehttp "GET / HTTP/1.1" 200 5417
-WARNING 2025-10-23 22:36:30,084 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:36:30,086 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:36:31,783 views Viewing study: ruban
-INFO 2025-10-23 22:36:31,783 basehttp "GET /view/1/ HTTP/1.1" 200 3889
-INFO 2025-10-23 22:36:43,768 views Viewing study: ruban
-INFO 2025-10-23 22:36:43,768 basehttp "GET /view/1/ HTTP/1.1" 200 2058
-INFO 2025-10-23 22:37:44,123 views Viewing study: ruban
-INFO 2025-10-23 22:37:44,125 basehttp "GET /view/1/ HTTP/1.1" 200 2528
-INFO 2025-10-23 22:37:55,562 views Fetched all studies successfully.
-INFO 2025-10-23 22:37:55,572 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:37:57,592 basehttp "GET /add/ HTTP/1.1" 200 5353
-INFO 2025-10-23 22:39:26,835 basehttp "GET /add/ HTTP/1.1" 200 5001
-WARNING 2025-10-23 22:39:26,917 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:39:26,919 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:39:36,137 views Fetched all studies successfully.
-INFO 2025-10-23 22:39:36,144 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:40:09,430 views Fetched all studies successfully.
-INFO 2025-10-23 22:40:09,436 basehttp "GET / HTTP/1.1" 200 5417
-WARNING 2025-10-23 22:40:09,487 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:40:09,489 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:40:13,086 views Viewing study: ruban
-INFO 2025-10-23 22:40:13,087 basehttp "GET /view/1/ HTTP/1.1" 200 2442
-INFO 2025-10-23 22:40:14,577 views Fetched all studies successfully.
-INFO 2025-10-23 22:40:14,585 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:40:15,854 basehttp "GET /add/ HTTP/1.1" 200 4938
-INFO 2025-10-23 22:40:33,422 basehttp "GET /add/ HTTP/1.1" 200 4939
-WARNING 2025-10-23 22:40:33,472 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:40:33,472 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:41:13,199 basehttp "GET /add/ HTTP/1.1" 200 4938
-WARNING 2025-10-23 22:41:13,248 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:41:13,248 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:41:19,048 views Fetched all studies successfully.
-INFO 2025-10-23 22:41:19,055 basehttp "GET / HTTP/1.1" 200 5417
-INFO 2025-10-23 22:41:38,260 views Fetched all studies successfully.
-INFO 2025-10-23 22:41:38,265 basehttp "GET / HTTP/1.1" 200 5353
-WARNING 2025-10-23 22:41:38,320 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:41:38,320 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:42:00,979 views Fetched all studies successfully.
-INFO 2025-10-23 22:42:00,985 basehttp "GET / HTTP/1.1" 200 5347
-WARNING 2025-10-23 22:42:01,037 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:42:01,037 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:42:51,138 views Fetched all studies successfully.
-INFO 2025-10-23 22:42:51,145 basehttp "GET / HTTP/1.1" 200 5221
-WARNING 2025-10-23 22:42:51,304 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:42:51,304 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:43:06,786 views Fetched all studies successfully.
-INFO 2025-10-23 22:43:06,793 basehttp "GET / HTTP/1.1" 200 5219
-WARNING 2025-10-23 22:43:06,850 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:43:06,850 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:43:26,993 views Fetched all studies successfully.
-INFO 2025-10-23 22:43:27,005 basehttp "GET / HTTP/1.1" 200 5241
-WARNING 2025-10-23 22:43:27,050 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:43:27,050 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:43:37,106 views Fetched all studies successfully.
-INFO 2025-10-23 22:43:37,109 basehttp "GET / HTTP/1.1" 200 5263
-WARNING 2025-10-23 22:43:37,169 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:43:37,169 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:43:52,837 views Fetched all studies successfully.
-INFO 2025-10-23 22:43:52,845 basehttp "GET / HTTP/1.1" 200 5248
-WARNING 2025-10-23 22:43:52,897 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:43:52,902 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:44:05,076 views Fetched all studies successfully.
-INFO 2025-10-23 22:44:05,082 basehttp "GET / HTTP/1.1" 200 5215
-WARNING 2025-10-23 22:44:05,151 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:44:05,151 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:44:25,350 views Fetched all studies successfully.
-INFO 2025-10-23 22:44:25,356 basehttp "GET / HTTP/1.1" 200 5245
-WARNING 2025-10-23 22:44:25,409 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:44:25,409 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:44:28,449 views Fetched all studies successfully.
-INFO 2025-10-23 22:44:28,454 basehttp "GET / HTTP/1.1" 200 5245
-WARNING 2025-10-23 22:44:28,496 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:44:28,496 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:44:30,808 views Viewing study: ruban
-INFO 2025-10-23 22:44:30,810 basehttp "GET /view/1/ HTTP/1.1" 200 2442
-INFO 2025-10-23 22:44:33,226 views Fetched all studies successfully.
-INFO 2025-10-23 22:44:33,231 basehttp "GET / HTTP/1.1" 200 5245
-INFO 2025-10-23 22:45:32,051 views Fetched all studies successfully.
-INFO 2025-10-23 22:45:32,060 basehttp "GET / HTTP/1.1" 200 5409
-WARNING 2025-10-23 22:45:32,218 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:45:32,220 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:45:38,629 views Fetched all studies successfully.
-INFO 2025-10-23 22:45:38,635 basehttp "GET / HTTP/1.1" 200 5409
-WARNING 2025-10-23 22:45:38,691 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:45:38,691 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:45:52,104 views Fetched all studies successfully.
-INFO 2025-10-23 22:45:52,111 basehttp "GET / HTTP/1.1" 200 5345
-INFO 2025-10-23 22:46:09,222 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:09,228 basehttp "GET / HTTP/1.1" 200 5339
-WARNING 2025-10-23 22:46:09,283 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:46:09,283 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:46:19,341 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:19,350 basehttp "GET / HTTP/1.1" 200 5291
-WARNING 2025-10-23 22:46:19,411 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:46:19,411 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:46:21,706 views Viewing study: abc
-INFO 2025-10-23 22:46:21,714 basehttp "GET /view/3/ HTTP/1.1" 200 2443
-INFO 2025-10-23 22:46:24,436 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:24,443 basehttp "GET / HTTP/1.1" 200 5291
-INFO 2025-10-23 22:46:25,938 basehttp "GET /edit/3/ HTTP/1.1" 200 4970
-INFO 2025-10-23 22:46:28,762 views Study updated: abc
-INFO 2025-10-23 22:46:28,762 basehttp "POST /edit/3/ HTTP/1.1" 302 0
-INFO 2025-10-23 22:46:28,762 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:28,769 basehttp "GET / HTTP/1.1" 200 5291
-WARNING 2025-10-23 22:46:30,364 views Study deleted: ruban
-INFO 2025-10-23 22:46:30,364 basehttp "GET /delete/1/ HTTP/1.1" 302 0
-INFO 2025-10-23 22:46:30,372 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:30,373 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:46:32,733 basehttp "GET /add/ HTTP/1.1" 200 4938
-INFO 2025-10-23 22:46:36,565 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:36,568 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:46:38,231 basehttp "GET /edit/3/ HTTP/1.1" 200 4970
-INFO 2025-10-23 22:46:40,441 views Fetched all studies successfully.
-INFO 2025-10-23 22:46:40,444 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:46:41,698 views Viewing study: abc
-INFO 2025-10-23 22:46:41,698 basehttp "GET /view/3/ HTTP/1.1" 200 2443
-INFO 2025-10-23 22:46:52,227 views Viewing study: abc
-INFO 2025-10-23 22:46:52,227 basehttp "GET /view/3/ HTTP/1.1" 200 2380
-WARNING 2025-10-23 22:46:52,288 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:46:52,288 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:46:59,513 views Viewing study: abc
-INFO 2025-10-23 22:46:59,521 basehttp "GET /view/3/ HTTP/1.1" 200 2379
-WARNING 2025-10-23 22:46:59,580 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:46:59,584 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:47:16,477 views Viewing study: abc
-INFO 2025-10-23 22:47:16,481 basehttp "GET /view/3/ HTTP/1.1" 200 2179
-WARNING 2025-10-23 22:47:16,535 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:47:16,535 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:47:23,345 views Viewing study: abc
-INFO 2025-10-23 22:47:23,348 basehttp "GET /view/3/ HTTP/1.1" 200 2174
-WARNING 2025-10-23 22:47:23,403 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:47:23,403 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:47:37,695 views Viewing study: abc
-INFO 2025-10-23 22:47:37,697 basehttp "GET /view/3/ HTTP/1.1" 200 2161
-WARNING 2025-10-23 22:47:37,777 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:47:37,777 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:47:59,275 views Viewing study: abc
-INFO 2025-10-23 22:47:59,275 basehttp "GET /view/3/ HTTP/1.1" 200 2225
-WARNING 2025-10-23 22:47:59,323 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:47:59,323 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
-INFO 2025-10-23 22:48:02,139 views Fetched all studies successfully.
-INFO 2025-10-23 22:48:02,145 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:48:04,841 views Viewing study: ruban
-INFO 2025-10-23 22:48:04,845 basehttp "GET /view/2/ HTTP/1.1" 200 2223
-INFO 2025-10-23 22:48:06,156 views Fetched all studies successfully.
-INFO 2025-10-23 22:48:06,166 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:48:07,631 basehttp "GET /add/ HTTP/1.1" 200 4938
-WARNING 2025-10-23 22:48:10,624 views Invalid form data submitted for study creation.
-INFO 2025-10-23 22:48:10,628 basehttp "POST /add/ HTTP/1.1" 200 5184
-INFO 2025-10-23 22:48:11,750 views Fetched all studies successfully.
-INFO 2025-10-23 22:48:11,756 basehttp "GET / HTTP/1.1" 200 4296
-INFO 2025-10-23 22:48:13,471 views Fetched all studies successfully.
-INFO 2025-10-23 22:48:13,479 basehttp "GET / HTTP/1.1" 200 4296
-WARNING 2025-10-23 22:48:13,540 log Not Found: /favicon.ico
-WARNING 2025-10-23 22:48:13,540 basehttp "GET /favicon.ico HTTP/1.1" 404 3544
+INFO 2025-10-24 15:45:11,018 basehttp "GET /add/ HTTP/1.1" 200 4938
+INFO 2025-10-24 15:45:23,255 views New study created: Ruban
+INFO 2025-10-24 15:45:23,306 basehttp "POST /add/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:45:23,315 views Fetched all studies successfully.
+INFO 2025-10-24 15:45:23,328 basehttp "GET / HTTP/1.1" 200 3302
+INFO 2025-10-24 15:45:25,900 views Viewing study: Ruban
+INFO 2025-10-24 15:45:25,904 basehttp "GET /view/1/ HTTP/1.1" 200 2227
+INFO 2025-10-24 15:45:27,887 views Fetched all studies successfully.
+INFO 2025-10-24 15:45:27,898 basehttp "GET / HTTP/1.1" 200 3302
+INFO 2025-10-24 15:45:29,070 basehttp "GET /edit/1/ HTTP/1.1" 200 4971
+INFO 2025-10-24 15:45:33,387 views Study updated: Ruban
+INFO 2025-10-24 15:45:33,390 basehttp "POST /edit/1/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:45:33,400 views Fetched all studies successfully.
+INFO 2025-10-24 15:45:33,408 basehttp "GET / HTTP/1.1" 200 3303
+INFO 2025-10-24 15:45:36,958 views Viewing study: Ruban
+INFO 2025-10-24 15:45:36,965 basehttp "GET /view/1/ HTTP/1.1" 200 2228
+INFO 2025-10-24 15:45:39,305 views Fetched all studies successfully.
+INFO 2025-10-24 15:45:39,320 basehttp "GET / HTTP/1.1" 200 3303
+INFO 2025-10-24 15:45:41,905 basehttp "GET /add/ HTTP/1.1" 200 4938
+INFO 2025-10-24 15:45:58,378 views New study created: test2
+INFO 2025-10-24 15:45:58,384 basehttp "POST /add/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:45:58,389 views Fetched all studies successfully.
+INFO 2025-10-24 15:45:58,402 basehttp "GET / HTTP/1.1" 200 4305
+WARNING 2025-10-24 15:46:21,068 views Study deleted: test2
+INFO 2025-10-24 15:46:21,075 basehttp "GET /delete/2/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:46:21,084 views Fetched all studies successfully.
+INFO 2025-10-24 15:46:21,100 basehttp "GET / HTTP/1.1" 200 3303
+INFO 2025-10-24 15:46:32,911 basehttp "GET /add/ HTTP/1.1" 200 4938
+INFO 2025-10-24 15:46:47,181 views New study created: test3
+INFO 2025-10-24 15:46:47,183 basehttp "POST /add/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:46:47,200 views Fetched all studies successfully.
+INFO 2025-10-24 15:46:47,229 basehttp "GET / HTTP/1.1" 200 4305
+INFO 2025-10-24 15:46:51,398 views Viewing study: test3
+INFO 2025-10-24 15:46:51,406 basehttp "GET /view/3/ HTTP/1.1" 200 2231
+INFO 2025-10-24 15:46:52,477 views Fetched all studies successfully.
+INFO 2025-10-24 15:46:52,489 basehttp "GET / HTTP/1.1" 200 4305
+INFO 2025-10-24 15:46:53,510 basehttp "GET /edit/3/ HTTP/1.1" 200 4974
+INFO 2025-10-24 15:46:58,673 views Study updated: test3
+INFO 2025-10-24 15:46:58,675 basehttp "POST /edit/3/ HTTP/1.1" 302 0
+INFO 2025-10-24 15:46:58,681 views Fetched all studies successfully.
+INFO 2025-10-24 15:46:58,692 basehttp "GET / HTTP/1.1" 200 4306
