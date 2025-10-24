@@ -73,7 +73,7 @@ venv\Scripts\activate
 ### 3️ Install Dependencies
 
 ```base          
-pip install -r requirements.txt
+pip install django mysqlclient
 
 ```
 
